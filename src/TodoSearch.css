@@ -1,0 +1,34 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #4abdac;
+    --clear:#DFDCE3;
+  }
+
+.TodoSearch {
+    display: flex;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--orange);
+    margin-left: 19%;
+}
+
+input {
+  border-radius: 5px;
+  width: 65%;
+  height: 3rem;
+  background: var(--clear);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.TodoSearch::placeholder {
+  color: var(--orange);
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+.TodoSearch:focus {
+  outline-color: var(--orange);
+}

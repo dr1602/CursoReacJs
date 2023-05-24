@@ -1,3 +1,20 @@
+:root {
+  --orange: #FC4A1A;
+  --blue: #4abdac;
+  --clear:#DFDCE3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  background: var(--blue);
+}
+
 .App {
   text-align: center;
 }
