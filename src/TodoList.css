@@ -1,0 +1,13 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #4abdac;
+    --clear:#DFDCE3;
+  }
+
+ul {
+    margin: 0;
+    padding: 0 0 56px 0;
+    list-style: none;
+    color: var(--clear);
+    font-size: 1.5rem
+}

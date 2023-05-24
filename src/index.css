@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+:root {
+  --orange: #FC4A1A;
+  --blue: #4abdac;
+  --clear:#DFDCE3;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--clear);
+  color: var(--blue);
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

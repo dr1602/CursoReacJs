@@ -1,0 +1,30 @@
+:root {
+  --orange: #FC4A1A;
+  --blue: #4abdac;
+  --clear:#DFDCE3;
+}
+
+.CreateTodoButton {
+    background-color: var(--orange);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+  
+    transform: rotate(0);
+    transition: .3s ease;
+  }
+  
+  .CreateTodoButton:hover {
+    transform: rotate(224deg);
+  }

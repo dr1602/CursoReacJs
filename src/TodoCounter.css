@@ -1,0 +1,15 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #4abdac;
+    --clear:#DFDCE3;
+  }
+
+.TodoCounter {
+    margin: 0;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: var(--clear);
+    background: var(--orange);
+}   
