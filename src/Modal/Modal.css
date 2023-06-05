@@ -1,0 +1,23 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #5ac3b3;
+    --clear-blue: #4abdac;
+    --clear:#DFDCE3;
+    --transparent-grey: #48C0C0C0;
+  }
+
+.ModalBackground {
+    text-align: center;
+    position: fixed;
+    font-size: 2rem;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    color: var(--clear);
+    background: var(--transparent-grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

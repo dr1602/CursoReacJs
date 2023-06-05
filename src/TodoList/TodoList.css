@@ -5,9 +5,13 @@
   }
 
 ul {
-    margin: 0;
+    margin: 1rem 1rem 1rem 1rem;
     padding: 0 0 56px 0;
     list-style: none;
     color: var(--clear);
     font-size: 1.5rem
+}
+
+p {
+  text-align: center;
 }

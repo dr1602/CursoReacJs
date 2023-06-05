@@ -1,0 +1,45 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #5ac3b3;
+    --clear-blue: #4abdac;
+    --clear:#DFDCE3;
+    --transparent-grey: #48C0C0C0;
+  }
+
+form {
+    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    font-size: 1.5rem;
+    color: var(--orange);
+    border-radius: 5px;
+
+}
+
+label {
+    display: block;
+    margin-top: -1rem;
+    color: var(--clear);
+}
+
+button {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    width: 5.4rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    color: var(--clear);
+    background: var(--orange);
+}
+
+textarea {
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 5px;
+    color: var(--orange);
+    font-size: 1rem;
+}

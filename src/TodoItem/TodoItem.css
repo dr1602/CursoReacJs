@@ -1,11 +1,17 @@
 :root {
     --orange: #FC4A1A;
-    --blue: #4abdac;
+    --blue: #5ac3b3;
+    --clear-blue: #4abdac;
     --clear:#DFDCE3;
   }
 
 .TodoItem {
-    background-color: var(--blue);
+    background-color: var(--clear-blue);
+    margin-left: 11%;
+    width: 78%;
+    height: 3rem;
+    border-radius: 5px;
+    border-color: var(--orange);
     position: relative;
     display: flex;
     justify-content: center;
@@ -22,7 +28,7 @@
 }
 
 .TodoItem-p--completed {
-    text-decoration: line-through;
+    text-decoration: line-through var(--orange);
 }
 
 .Icon {
@@ -47,7 +53,6 @@
 
 .Icon-delete {
     position: absolute;
-    top: -24px;
     right: 0;
 }
 

@@ -1,0 +1,59 @@
+:root {
+    --orange: #FC4A1A;
+    --blue: #5ac3b3;
+    --clear-blue: #4abdac;
+    --clear:#DFDCE3;
+  }
+
+.LoadingTodo-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}
+
+.LoadingTodo-text {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+.LoadingTodo-completeIcon,
+.LoadingTOdo-deleteIcon {
+    border-radius: 50px;
+    height: 48px;
+    width: 48px;
+}
+
+.LoadingTodo-completeIcon {
+    position: absolute;
+    left: 12px;
+}
+
+.LoadingTOdo-deleteIcon {
+    position: absolute;
+    top: -24px;
+    right: 0;
+}
+
+.LoadingTodo-container,
+.LoadingTodo-completeIcon,
+.LoadingTOdo-deleteIcon {
+    background: linear-gradient(90deg, rgba(250,250,250,1), rgba(200, 199, 199));
+    background-size: 400% 400%;
+    animation: loadingAnimation 3s ease-in-out infinite;
+}
+
+@keyframes loadinAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

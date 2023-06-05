@@ -10,15 +10,15 @@
 
 :root {
   --orange: #FC4A1A;
-  --blue: #4abdac;
+  --blue: #5ac3b3;
+  --clear-blue: #4abdac;
   --clear:#DFDCE3;
 }
-
 
 body {
   margin: 0;
   padding: 0;
-  background: var(--clear);
+  background: var(--blue);
   color: var(--blue);
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }

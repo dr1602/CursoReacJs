@@ -5,6 +5,7 @@
 }
 
 .CreateTodoButton {
+    z-index: 1000;
     background-color: var(--orange);
     border: none;
     border-radius: 50%;
